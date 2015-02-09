@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+
+body {
+    font-size: 18pt;
+    font-family: Tahoma, Verdana, Arial;
+}
+
+#main {
+    margin: 12px;
+    background: #178fea;
+    border-radius: 50px;
+    width: 400px;
+    text-align: center;
+}
+
+#new-todo {
+    height: 32px;
+    line-height: 28px;
+    font-family: Tahoma, Verdana, Arial;
+    width: 240px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a.del {
+    display: inline-block;
+    width: 42px;
+    text-align: center;
+    margin-left: -120px;
+    color: #000000;
+}
+
+a.del:hover {
+    display: inline-block;
+    color: #000000;
+    background-color: Red;
+}
+
+a.btn-common {
+    font-family: 'Sigmar One', cursive;
+    color: #000000;
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+a.btn-common:hover {
+    color: #ff0000;
+    background-color: #000000;
+    border-radius: 25px;
+    padding: 0 5px;
+
+}
+
+li.task {
+    cursor: default;
+    margin-left: 80px;
+}
+
+li.task span {
+    margin-left: 64px;
+}
+
+.ui-sortable {
+    text-align: left;
+}
+
+#list-ready li.task {
+    text-align: left;
+    list-style-type: none;
+    opacity: 0.5;
+    color: #ff0000;
+}
+
+#list-ready li.task span {
+    text-decoration: line-through;
+}

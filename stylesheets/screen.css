@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Sigmar+One);
+/* line 3, ../sass/screen.scss */
+body {
+  font-size: 18pt;
+  font-family: Tahoma, Verdana, Arial;
+}
+
+/* line 8, ../sass/screen.scss */
+#main {
+  margin: 12px;
+  background: #178fea;
+  border-radius: 50px;
+  width: 400px;
+  text-align: center;
+}
+
+/* line 16, ../sass/screen.scss */
+#new-todo {
+  height: 32px;
+  line-height: 28px;
+  font-family: Tahoma, Verdana, Arial;
+  width: 240px;
+}
+
+/* line 23, ../sass/screen.scss */
+a {
+  text-decoration: none !important;
+}
+
+/* line 27, ../sass/screen.scss */
+a.del {
+  display: inline-block;
+  width: 42px;
+  text-align: center;
+  margin-left: -120px;
+  color: #000000;
+}
+
+/* line 35, ../sass/screen.scss */
+a.del:hover {
+  display: inline-block;
+  color: #000000;
+  background-color: Red;
+}
+
+/* line 41, ../sass/screen.scss */
+a.btn-common {
+  font-family: 'Sigmar One', cursive;
+  color: #000000;
+  margin-bottom: 12px;
+  display: inline-block;
+}
+
+/* line 48, ../sass/screen.scss */
+a.btn-common:hover {
+  color: #ff0000;
+  background-color: #000000;
+  border-radius: 25px;
+  padding: 0 5px;
+}
+
+/* line 56, ../sass/screen.scss */
+li.task {
+  cursor: default;
+  margin-left: 80px;
+}
+
+/* line 61, ../sass/screen.scss */
+li.task span {
+  margin-left: 64px;
+}
+
+/* line 65, ../sass/screen.scss */
+.ui-sortable {
+  text-align: left;
+}
+
+/* line 69, ../sass/screen.scss */
+#list-ready li.task {
+  text-align: left;
+  list-style-type: none;
+  opacity: 0.5;
+  color: #ff0000;
+}
+
+/* line 76, ../sass/screen.scss */
+#list-ready li.task span {
+  text-decoration: line-through;
+}
